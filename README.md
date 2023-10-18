@@ -1,13 +1,45 @@
-# Sample Hardhat Project
+# Space Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project contains the Smart Contratcs for the Space, Which is used to deploy a NFT campaign contrat
 
-Try running some of the following tasks:
+# Running Locally
 
 ```shell
+
+git clone https://github.com/VIVEK-SUTHAR/space-contracts
+cd space-contracts
+```
+
+Install dependencies
+
+```shell
+yarn
+#or
+npm i
+
+```
+
+Add environment variable
+
+```shell
+PRIVATE_KEY=ACCOUNT_TO_DEPLOY_PRIVATE_KEY
+POLYGONSCAN_API_KEY=FOR_AUTOMATIC_CVERIFICATION
+TESTNET_RPC=RPC_URL
+```
+
+Deploy contract:
+Run below script to deploy the contract, it will deploy and verify the contract
+
+```shell
+npx hardhat run scripts/deploy.ts --network mumbai
+```
+
 npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
+
+```
+
 ```
