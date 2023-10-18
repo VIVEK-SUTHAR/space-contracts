@@ -1,9 +1,10 @@
 # Space Contracts
 
-This project contains the Smart Contratcs for the Space, Which is used to deploy a NFT campaign contrat
+This project contains the Smart Contrats for the Space, which is used to deploy a NFT campaign contract.
 
 # Running Locally
 
+Clone the repo locally
 ```shell
 
 git clone https://github.com/VIVEK-SUTHAR/space-contracts
